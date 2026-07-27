@@ -1,0 +1,1 @@
+/**\n * Persistence Layer: Index\n * \n * Exports all persistence-related modules for easy access.\n */\n\nexport { DatabaseConnectionManager, DatabaseType, DatabaseConfig, PostgreSQLSchema, Neo4jSchema } from './database';\nexport { PersistentStore, Cache, StoreConfig } from './store';\nexport { MigrationExecutor, Migration, MigrationMetadata } from './migrations';\n"
