@@ -1,0 +1,30 @@
+{
+  "name": "avatar-x",
+  "version": "0.0.1",
+  "description": "The persistent digital realm. Avatar X - the bridge between worlds. Divine order, infinitely scalable.",
+  "type": "module",
+  "main": "dist/index.js",
+  "scripts": {
+    "dev": "node --watch src/index.ts",
+    "build": "tsc",
+    "start": "node dist/index.js",
+    "test": "node --test dist/**/*.test.js"
+  },
+  "keywords": [
+    "avatar",
+    "virtual-world",
+    "persistent-realm",
+    "knowledge-graph",
+    "simulation",
+    "divine-order"
+  ],
+  "author": "Avatar X",
+  "license": "MIT",
+  "dependencies": {
+    "uuid": "^9.0.0"
+  },
+  "devDependencies": {
+    "typescript": "^5.1.0",
+    "@types/node": "^20.0.0"
+  }
+}
